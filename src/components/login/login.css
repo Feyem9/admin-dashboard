@@ -1,0 +1,121 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.parentD{
+    width: 100%;
+    height: 100%;
+}
+
+.parentD .parentDi{
+    padding: 3px;
+}
+
+.parentD .parentDi .Pc{
+  padding: 3px;
+}
+
+.parentD .parentDi .Pc .Fcc{
+    width: 100%;
+    height: 40vh;
+    background-color: #F5F5F5;
+    align-items: center;
+    justify-content: center;
+}
+
+.parentD .parentDi .Pc .Fcc .Fccc{
+    padding-top: 3rem;
+}
+
+
+.parentD .parentDi .Pc .Fcc .Fccc .image{
+    width:300px;
+    align-items:center;
+}
+
+.parentD .parentDi .Pc .Scc{
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(#2A4558, #05253A);
+    padding: 3px;
+}
+
+.parentD .parentDi .Pc .Scc .ptex{
+    text-align: center;
+    color: #fff;
+    font-size: .7rem;
+    margin-top: 13rem;
+}
+
+.parentD .parentDi .Pc .Scc .shift{
+    width: 100%;
+    height: 100%;
+    /* background-color: #F5F5F5; */
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+}
+
+.parentD .parentDi .Pc .Scc .container{
+    align-items: center;
+    text-align: center;
+    /* padding: 20px; */
+    /* border: gray solid 1px; */
+    border-radius: 15px;
+    background-color: #fff;
+    width: 40%;
+    margin-top: -5rem;
+    box-shadow:5px 9px 10px rgba(90, 90, 94, 0.3);
+}
+
+
+.parentD .parentDi .Pc .Scc .container .form{
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.parentD .parentDi .Pc .Scc .container .form input{
+    margin-bottom: 20px;
+    padding: 2px;
+    width: 100%;
+    box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.4);
+    border: none;
+}
+
+.parentD .parentDi .Pc .Scc .container .form .flex{
+    display: flex;
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.parentD .parentDi .Pc .Scc .container .form .flex .check{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+    text-align-last: left;
+}
+
+.parentD .parentDi .Pc .Scc .container .form .flex .tex{
+    /* display: flex; */
+    /* margin-right:5rem ; */
+    width: 100%;
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+    text-align-last: left;
+}
+
+.parentD .parentDi .Pc .Scc .container .form .login{
+    background: linear-gradient(#69938F, #4C847B);
+    box-shadow:5px 9px 10px rgba(109, 224, 144, 0.3);
+}
